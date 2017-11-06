@@ -1,0 +1,36 @@
+# example user config (see 'hg help config' for more info)
+[ui]
+# name and email, e.g.
+# username = Jane Doe <jdoe@example.com>
+username = Sergio Sánchez <ssanchez@sweetspot.com>
+
+[extensions]
+color=
+fetch=
+flow= ~/Repos/hgflow/src/hgflow.py
+hgk=
+graphlog=
+rebase=
+progress=
+mq=
+purge=
+shelve=
+hgext.extdiff =
+
+[tortoisehg]
+
+[extensions]
+hgext.extdiff=
+
+[extdiff]
+cmd.kdiff = kdiff3
+
+[annotate]
+ignorews = True
+ignorewsamount = True
+ignoreblanklines = True
+
+[diff]
+ignorews = True
+ignorewsamount = True
+ignoreblanklines = True
