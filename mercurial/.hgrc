@@ -12,6 +12,7 @@ hgk=
 graphlog=
 rebase=
 progress=
+prompt = ~/Tools/hg-prompt/prompt.py
 mq=
 purge=
 shelve=

@@ -85,6 +85,11 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 source /home/sergio/Tools/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
+export PATH="$PATH:$HOME/Tools/Phabricator/arcanist/bin/:$HOME/Library/Android/sdk/build-tools/25.0.3:$HOME/Library/Android/sdk/platform-tools"
+
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+export EDITOR=/usr/bin/nano
+export VISUAL=/usr/bin/nano
