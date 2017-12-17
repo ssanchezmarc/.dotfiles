@@ -15,10 +15,10 @@ To configure your terminal using my dotfiles, some preconfigurations are require
 2. [Install Oh-my-zsh!](https://github.com/robbyrussell/oh-my-zsh)
 3. Clone [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting) repo
 
-···`git clone https://github.com/zsh-users/zsh-syntax-highlighting.git`
+   `git clone https://github.com/zsh-users/zsh-syntax-highlighting.git`
 4. Clone [powerlevel9k](https://github.com/bhilburn/powerlevel9k) repo into custom themes folder of .oh-my-zsh
 
-···`git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/themes/powerlevel9k`
+   `git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/themes/powerlevel9k`
 5. Include [nerds-fonts](https://github.com/ryanoasis/nerd-fonts#font-installation) into your system fonts (I recommend **option 2** and include only the **3270** asset)
 6. Set these fonts as your profile fonts for your terminal (Gnome terminal in my case)
 
