@@ -2,12 +2,24 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-  export ZSH=/home/sergio/.oh-my-zsh
+export ZSH=/home/sergio/.oh-my-zsh
+export TERM="xterm-256color"
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-ZSH_THEME="prose"
+
+# MY PROSE
+# ZSH_THEME="prose"
+
+# POWERLEVEL9K
+POWERLEVEL9K_MODE='nerdfont-complete'
+ZSH_THEME="powerlevel9k/powerlevel9k"
+POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(context dir_writable dir rbenv vcs)
+POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status time battery)
+
+# ZSH_THEME="agnoster"
+# ZSH_THEME="spaceship"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -51,9 +63,10 @@ ZSH_THEME="prose"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git mercurial osx brew ruby rails zsh-syntax-highlighting)
+plugins=(git mercurial osx ruby rails)
 
 source $ZSH/oh-my-zsh.sh
+source /home/sergio/Tools/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # User configuration
 
@@ -83,13 +96,7 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-source /home/sergio/Tools/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-
-export PATH="$PATH:$HOME/Tools/Phabricator/arcanist/bin/:$HOME/Library/Android/sdk/build-tools/25.0.3:$HOME/Library/Android/sdk/platform-tools"
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
-
-export EDITOR=/usr/bin/nano
-export VISUAL=/usr/bin/nano
