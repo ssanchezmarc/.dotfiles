@@ -4,7 +4,7 @@ This are my dotfiles I use for customizing **Ubuntu** and setting up the softwar
 **Note:** If it is not mentioned, the default location of these dotfiles are `$HOME`
 
 ## Where are these customization applied?
-### Terminal
+### [Terminal](zsh/)
 ![Terminal screenshot](https://user-images.githubusercontent.com/24934061/34082640-5919839e-e362-11e7-8765-cb917d75c2f0.png)
 
 `.zshrc` defines your ZSH shell (require installation) preferences: extensions and themes.
