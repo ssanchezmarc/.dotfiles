@@ -5,21 +5,23 @@ This are my dotfiles I use for customizing **Ubuntu** and setting up the softwar
 
 ## Where are these customization applied?
 ### Terminal
-`.zshrc` defines your shell preferences, mainly extensions and theme which will define your prompt.
+![terminal](https://user-images.githubusercontent.com/24934061/34082625-0809ec28-e362-11e7-8dc3-fce90946690e.png)
+
+`.zshrc` defines your ZSH shell (require installation) preferences: extensions and themes.
 
 To configure your terminal using my dotfiles, some preconfigurations are required:
 
 1. [Install ZSH](https://github.com/robbyrussell/oh-my-zsh/wiki/Installing-ZSH)
 2. [Install Oh-my-zsh!](https://github.com/robbyrussell/oh-my-zsh)
 3. Clone [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting) repo
-...`git clone https://github.com/zsh-users/zsh-syntax-highlighting.git`
+···`git clone https://github.com/zsh-users/zsh-syntax-highlighting.git`
 4. Clone [powerlevel9k](https://github.com/bhilburn/powerlevel9k) repo into custom themes folder of .oh-my-zsh
-...`git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/themes/powerlevel9k`
-5. Install [nerds-fonts](https://github.com/ryanoasis/nerd-fonts#font-installation) into your system fonts (I recommend option 2 and just 3270 asset)
-6. Set the new fonts as your profile fonts for your terminal (Gnome terminal in my case)
+···`git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/themes/powerlevel9k`
+5. Include [nerds-fonts](https://github.com/ryanoasis/nerd-fonts#font-installation) into your system fonts (I recommend **option 2** and include only the **3270** asset)
+6. Set these fonts as your profile fonts for your terminal (Gnome terminal in my case)
 
 ### Tmux
-`.tmux.conf` defines some key bindings and basic configuration for [tmux](https://github.com/tmux/tmux) ("terminal multiplexer" which enables a number of terminals (or windows) to be accessed and controlled from a single terminal).
+`.tmux.conf` defines some key bindings and basic configuration for [tmux](https://github.com/tmux/tmux) ("terminal multiplexer" which enables a number of terminals to be accessed and controlled from a single terminal).
 
 ### Mercurial
 `.hgrc` defines extension and some useful configurations for [mercurial](https://www.mercurial-scm.org/).
