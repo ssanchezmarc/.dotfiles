@@ -5,7 +5,7 @@ This are my dotfiles I use for customizing **Ubuntu** and setting up the softwar
 
 ## Where are these customization applied?
 ### Terminal
-![terminal](https://user-images.githubusercontent.com/24934061/34082625-0809ec28-e362-11e7-8dc3-fce90946690e.png)
+![Terminal screenshot](https://user-images.githubusercontent.com/24934061/34082640-5919839e-e362-11e7-8765-cb917d75c2f0.png)
 
 `.zshrc` defines your ZSH shell (require installation) preferences: extensions and themes.
 
