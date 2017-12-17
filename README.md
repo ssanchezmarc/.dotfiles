@@ -33,7 +33,7 @@ To configure your terminal using my dotfiles, some preconfigurations are require
 
 If you want to apply this configuration to a repo level, the file should be located in the root folder of your project into a .vscode folder `.vscode/settings.json`. If case that you wnat to apply to user level, the location should be `$HOME/.config/Code/User/settings.json`
 
-### [Atom](.atom/)]
+### [Atom](.atom/)
 `config.cson` and `style.less` define my based configuration for [Atom](https://code.visualstudio.com/). Probably outdated as I have not used it for a long time.
 
 Default location `$HOME/.atom/config.cson` and `$HOME/.atom/style.less`
