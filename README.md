@@ -6,7 +6,7 @@ This are my dotfiles I use for customizing **Ubuntu** and setting up the softwar
 ```
 git clone git@github.com:ssanchezmarc/.dotfiles.git ~/.dotfiles
 cd ~/.dotfiles
-./makesymlinks.sh
+./install.sh
 ```
 **Note:** Maybe a restart could be required after completing the process
 
